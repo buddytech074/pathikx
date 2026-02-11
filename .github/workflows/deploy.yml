@@ -35,4 +35,4 @@ jobs:
                   key: ${{ secrets.SERVER_SSH_KEY }}
                   source: "dist/*"
                   target: "${{ secrets.APP_PATH }}"
-                  strip_components: 1 # Removes 'dist/' prefix
+                  strip_components: 1  # Removes 'dist/' prefix
