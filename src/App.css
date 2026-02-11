@@ -1,0 +1,32 @@
+/* Custom components and overrides */
+
+.hero {
+  background-image:
+    linear-gradient(to right, #4f46e50d 1px, transparent 1px),
+    linear-gradient(to bottom, #4f46e50d 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Navbar active state */
+.navbar {
+  transition: all 0.3s ease;
+}
+
+/* Card hover effects */
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+/* Feature box hover */
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
