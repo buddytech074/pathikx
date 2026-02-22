@@ -5,6 +5,7 @@ import Driver from './pages/Driver';
 import WalletInfo from './pages/Wallet';
 import Terms from './pages/Terms';
 import Privacy from './pages/Privacy';
+import DeleteAccount from './pages/DeleteAccount';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="wallet-info" element={<WalletInfo />} />
           <Route path="terms" element={<Terms />} />
           <Route path="privacy" element={<Privacy />} />
+          <Route path="delete-account" element={<DeleteAccount />} />
           {/* Add more routes here */}
         </Route>
       </Routes>
